@@ -1,0 +1,107 @@
+/* FlexBox Standarad */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 1200px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.example {
+  display: flex;
+  justify-content: space-around;
+
+  width: 800px;
+  margin: 50px 0;
+  background-color: #D6E9FE;
+}
+
+.item img {
+  display: block;
+}
+
+.menu-container{
+	color: #696969;
+	background-color: #fcffa4;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+
+}
+
+.menu{
+	border: 1px solid #fff;
+	width: 900px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.links{
+	border: 1px solid #fff;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.header-container{
+	color: #696969;
+	background-color: #cadetBlue;
+	display: flex;
+	justify-content: center;
+}
+
+.header{
+	width: 900px;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.photo-grid-item {
+  width: 400px;
+  height: 400px;
+}
+
+.item-relative{
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+
+.item-absolute{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.absolute{
+	position: relative;
+}
+
+.item-fixed{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+

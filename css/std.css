@@ -1,0 +1,50 @@
+/*the standard on every page*/
+
+body{
+	background-color: #ffd17a;
+	font-family: serif, monospace, fantasy;
+	font-size:20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	padding 30px;
+	border: 8px double #4682b4;
+	background-color: lightblue;
+	text-align: center;
+	color: #414141;
+	font-weight: bold;
+	font-family: "Copperplate", Georgia, serif;
+}
+
+p{
+	border: 6px groove lightblue;
+	padding: 20px 10px;
+	margin: 20px 10px
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #fcffa4;
+	color: #696969;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	padding: 14px 16px;
+	background-color: #fcffa4;
+	color: #696969;
+	text-align: center;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #696969;
+	color: #fcffa4;
+}
+
