@@ -11,25 +11,31 @@ h1, h2, h3, h4, h5, h6{
 	font-family: "Copperplate", Georgia, serif;
 }
 
+footer{
+    margin: 50px 10px 0px 10px;
+    padding: 20px 10px 10px 10px;
+    bottom: 0;
+    border-top-style: groove;
+    font-size: 15px;
+    color: #696969;
+    /*background-color: #faf9b0;*/
+}
 
 .ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #696969;
-	color: #fcffa4;
 }
 
 .li{
 	float: left;
+	list-style-type: none;
 }
 
 .li a{
 	display: block;
 	padding: 14px 16px;
-	background-color: #696969;
-	color: #fcffa4;
 	text-align: center;
 	text-decoration: none;
 }
@@ -39,3 +45,19 @@ h1, h2, h3, h4, h5, h6{
 	color: #696969;
 }
 
+/* Navbar Menu */
+.bg-dark {
+	background-color: #696969 !important;
+	margin-bottom: 20px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link {
+	color: rgb(255, 255, 255);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+	color: rgb(159, 245, 168);
+  }
+  .dropdown-item:hover{
+	  background-color: aquamarine;
+  }
