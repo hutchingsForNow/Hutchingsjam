@@ -1,7 +1,16 @@
 body{
-	background-color: aquamarine;
+	background-color: rgb(248, 247, 159);
 	font-family: serif, monospace, fantasy;
 	font-size:20px;
+	align-content: center;
+}
+
+a{
+	color: #3d3c3c;
+}
+
+a:hover{
+	color:rgb(4, 4, 104)
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -9,6 +18,30 @@ h1, h2, h3, h4, h5, h6{
 	color: #414141;
 	font-weight: bold;
 	font-family: "Copperplate", Georgia, serif;
+}
+
+.img{
+	border-radius: 8px;
+	border-style: inset;
+	border-width: 7px;
+	border-top-color: rgb(70, 203, 226);
+	border-left-color: rgb(70, 203, 226);
+	border-right-color: rgb(70, 203, 226);
+	border-bottom-color: rgb(70, 203, 226);
+}
+
+div.polaroid{
+	width: 400px;
+	border-radius: 8px;
+	background-color: rgb(248, 247, 159);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 20px 40px;
+	padding: 10px, 20px;
+}
+
+div.contain{
+	text-align: center;
+	padding: 10px 20px;
 }
 
 footer{
@@ -45,6 +78,12 @@ footer{
 	color: #696969;
 }
 
+.liCenter{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
 /* Navbar Menu */
 .bg-dark {
 	background-color: #696969 !important;
@@ -56,8 +95,8 @@ footer{
   }
   
   .navbar-dark .navbar-nav .nav-link:hover {
-	color: rgb(159, 245, 168);
+	color: aquamarine;
   }
   .dropdown-item:hover{
-	  background-color: aquamarine;
+	  background-color: rgb(184, 252, 228);;
   }

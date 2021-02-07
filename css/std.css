@@ -1,50 +1,93 @@
-/*the standard on every page*/
-
 body{
-	background-color: #ffd17a;
+	background-color: rgb(248, 247, 159);
 	font-family: serif, monospace, fantasy;
 	font-size:20px;
 }
 
 h1, h2, h3, h4, h5, h6{
-	padding 30px;
-	border: 8px double #4682b4;
-	background-color: lightblue;
 	text-align: center;
 	color: #414141;
 	font-weight: bold;
 	font-family: "Copperplate", Georgia, serif;
 }
 
-p{
-	border: 6px groove lightblue;
-	padding: 20px 10px;
-	margin: 20px 10px
+img{
+	border-radius: 8px;
+	width: 100%;
 }
 
-ul{
+.img{
+	width:100%;
+	border-radius: 0%;
+	border-style: inset;
+	border-width: 7px;
+	border-top-color: #86e4f0;
+	border-left-color: #86e4f0;
+	border-right-color: #72bdca;
+	border-bottom-color: #72bdca;
+}
+
+div.polaroid{
+	width: 80%;
+	border-radius: 8px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 20px 40px;
+	padding: 10px, 20px;
+}
+
+div.contain{
+	text-align: center;
+	padding: 10px 20px;
+}
+
+footer{
+    margin: 50px 10px 0px 10px;
+    padding: 20px 10px 10px 10px;
+    bottom: 0;
+    border-top-style: groove;
+    font-size: 15px;
+    color: #696969;
+    /*background-color: #faf9b0;*/
+}
+
+.ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #fcffa4;
-	color: #696969;
 }
 
-li{
+.li{
 	float: left;
+	list-style-type: none;
 }
 
-li a{
+.li a{
 	display: block;
 	padding: 14px 16px;
-	background-color: #fcffa4;
-	color: #696969;
 	text-align: center;
 	text-decoration: none;
 }
-li a:hover{
-	background-color: #696969;
-	color: #fcffa4;
+
+.li a:hover{
+	background-color: #fcffa4;
+	color: #696969;
 }
 
+/* Navbar Menu */
+.bg-dark {
+	background-color: #696969 !important;
+	margin-bottom: 20px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link {
+	color: rgb(255, 255, 255);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+	color: aquamarine;
+  }
+  .dropdown-item:hover{
+	  background-color: rgb(184, 252, 228);;
+  }
